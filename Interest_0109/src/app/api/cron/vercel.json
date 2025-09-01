@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/cron/route.ts": {
+      "runtime": "nodejs22.x"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/cron",
+      "schedule": "0 0 * * *"
+    }
+  ]
+}
